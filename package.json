@@ -55,12 +55,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vite-plugin-bundle-size-tracker.git"
+    "url": "https://github.com/vinayjampana/vite-plugin-bundle-size-tracker.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/vite-plugin-bundle-size-tracker/issues"
+    "url": "https://github.com/vinayjampana/vite-plugin-bundle-size-tracker/issues"
   },
-  "homepage": "https://github.com/yourusername/vite-plugin-bundle-size-tracker#readme",
+  "homepage": "https://github.com/vinayjampana/vite-plugin-bundle-size-tracker#readme",
   "engines": {
     "node": ">=16.0.0"
   }
