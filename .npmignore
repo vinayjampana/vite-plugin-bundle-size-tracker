@@ -1,0 +1,17 @@
+# Source files
+src/
+test/
+examples/
+
+# Config files
+tsconfig.json
+.github/
+.gitignore
+
+# Development files
+*.test.ts
+*.spec.ts
+coverage/
+
+# Plugin artifacts
+.bundle-size-history.json

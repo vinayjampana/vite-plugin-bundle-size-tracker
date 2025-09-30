@@ -1,0 +1,67 @@
+{
+  "name": "vite-plugin-bundle-size-tracker",
+  "version": "1.0.0",
+  "description": "A Vite plugin that tracks bundle sizes and compares with historical averages",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest",
+    "test:ci": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "bundle",
+    "bundle-size",
+    "bundle-analyzer",
+    "performance",
+    "optimization",
+    "build-tool"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vite-plugin-bundle-size-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vite-plugin-bundle-size-tracker/issues"
+  },
+  "homepage": "https://github.com/yourusername/vite-plugin-bundle-size-tracker#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
