@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-bundle-size-tracker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Vite plugin that tracks bundle sizes and compares with historical averages",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
